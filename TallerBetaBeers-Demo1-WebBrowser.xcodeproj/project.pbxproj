@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D414A72141CC95100C6E279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D414A71141CC95100C6E279 /* UIKit.framework */; };
+		1D414A74141CC95100C6E279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D414A73141CC95100C6E279 /* Foundation.framework */; };
+		1D414A76141CC95100C6E279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D414A75141CC95100C6E279 /* CoreGraphics.framework */; };
+		1D414A7C141CC95100C6E279 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D414A7A141CC95100C6E279 /* InfoPlist.strings */; };
+		1D414A7E141CC95100C6E279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D414A7D141CC95100C6E279 /* main.m */; };
+		1D414A82141CC95100C6E279 /* WebBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D414A81141CC95100C6E279 /* WebBrowserAppDelegate.m */; };
+		1D414A85141CC95200C6E279 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D414A83141CC95200C6E279 /* MainWindow.xib */; };
+		1D414A8F141CCAD200C6E279 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D414A8D141CCAD200C6E279 /* WebBrowserViewController.m */; };
+		1D414A90141CCAD200C6E279 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D414A8E141CCAD200C6E279 /* WebBrowserViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D414A6D141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TallerBetaBeers-Demo1-WebBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D414A71141CC95100C6E279 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D414A73141CC95100C6E279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D414A75141CC95100C6E279 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D414A79141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TallerBetaBeers-Demo1-WebBrowser-Info.plist"; sourceTree = "<group>"; };
+		1D414A7B141CC95100C6E279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D414A7D141CC95100C6E279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D414A7F141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TallerBetaBeers-Demo1-WebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		1D414A80141CC95100C6E279 /* WebBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserAppDelegate.h; sourceTree = "<group>"; };
+		1D414A81141CC95100C6E279 /* WebBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserAppDelegate.m; sourceTree = "<group>"; };
+		1D414A84141CC95200C6E279 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1D414A8C141CCAD200C6E279 /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		1D414A8D141CCAD200C6E279 /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		1D414A8E141CCAD200C6E279 /* WebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D414A6A141CC95100C6E279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D414A72141CC95100C6E279 /* UIKit.framework in Frameworks */,
+				1D414A74141CC95100C6E279 /* Foundation.framework in Frameworks */,
+				1D414A76141CC95100C6E279 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D414A62141CC95100C6E279 = {
+			isa = PBXGroup;
+			children = (
+				1D414A77141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser */,
+				1D414A70141CC95100C6E279 /* Frameworks */,
+				1D414A6E141CC95100C6E279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D414A6E141CC95100C6E279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D414A6D141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D414A70141CC95100C6E279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D414A71141CC95100C6E279 /* UIKit.framework */,
+				1D414A73141CC95100C6E279 /* Foundation.framework */,
+				1D414A75141CC95100C6E279 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D414A77141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1D414A80141CC95100C6E279 /* WebBrowserAppDelegate.h */,
+				1D414A81141CC95100C6E279 /* WebBrowserAppDelegate.m */,
+				1D414A83141CC95200C6E279 /* MainWindow.xib */,
+				1D414A8B141CCA4C00C6E279 /* View Controllers */,
+				1D414A78141CC95100C6E279 /* Supporting Files */,
+			);
+			path = "TallerBetaBeers-Demo1-WebBrowser";
+			sourceTree = "<group>";
+		};
+		1D414A78141CC95100C6E279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D414A79141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser-Info.plist */,
+				1D414A7A141CC95100C6E279 /* InfoPlist.strings */,
+				1D414A7D141CC95100C6E279 /* main.m */,
+				1D414A7F141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D414A8B141CCA4C00C6E279 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D414A8C141CCAD200C6E279 /* WebBrowserViewController.h */,
+				1D414A8D141CCAD200C6E279 /* WebBrowserViewController.m */,
+				1D414A8E141CCAD200C6E279 /* WebBrowserViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D414A6C141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D414A88141CC95200C6E279 /* Build configuration list for PBXNativeTarget "TallerBetaBeers-Demo1-WebBrowser" */;
+			buildPhases = (
+				1D414A69141CC95100C6E279 /* Sources */,
+				1D414A6A141CC95100C6E279 /* Frameworks */,
+				1D414A6B141CC95100C6E279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TallerBetaBeers-Demo1-WebBrowser";
+			productName = "TallerBetaBeers-Demo1-WebBrowser";
+			productReference = 1D414A6D141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D414A64141CC95100C6E279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = minube;
+			};
+			buildConfigurationList = 1D414A67141CC95100C6E279 /* Build configuration list for PBXProject "TallerBetaBeers-Demo1-WebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D414A62141CC95100C6E279;
+			productRefGroup = 1D414A6E141CC95100C6E279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D414A6C141CC95100C6E279 /* TallerBetaBeers-Demo1-WebBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D414A6B141CC95100C6E279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D414A7C141CC95100C6E279 /* InfoPlist.strings in Resources */,
+				1D414A85141CC95200C6E279 /* MainWindow.xib in Resources */,
+				1D414A90141CCAD200C6E279 /* WebBrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D414A69141CC95100C6E279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D414A7E141CC95100C6E279 /* main.m in Sources */,
+				1D414A82141CC95100C6E279 /* WebBrowserAppDelegate.m in Sources */,
+				1D414A8F141CCAD200C6E279 /* WebBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D414A7A141CC95100C6E279 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D414A7B141CC95100C6E279 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D414A83141CC95200C6E279 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D414A84141CC95200C6E279 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D414A86141CC95200C6E279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D414A87141CC95200C6E279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D414A89141CC95200C6E279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TallerBetaBeers-Demo1-WebBrowser/TallerBetaBeers-Demo1-WebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "TallerBetaBeers-Demo1-WebBrowser/TallerBetaBeers-Demo1-WebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D414A8A141CC95200C6E279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TallerBetaBeers-Demo1-WebBrowser/TallerBetaBeers-Demo1-WebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "TallerBetaBeers-Demo1-WebBrowser/TallerBetaBeers-Demo1-WebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D414A67141CC95100C6E279 /* Build configuration list for PBXProject "TallerBetaBeers-Demo1-WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D414A86141CC95200C6E279 /* Debug */,
+				1D414A87141CC95200C6E279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D414A88141CC95200C6E279 /* Build configuration list for PBXNativeTarget "TallerBetaBeers-Demo1-WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D414A89141CC95200C6E279 /* Debug */,
+				1D414A8A141CC95200C6E279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D414A64141CC95100C6E279 /* Project object */;
+}
